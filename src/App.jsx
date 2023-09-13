@@ -9,7 +9,7 @@ function App() {
       <CarForm />
       <CarList />
       <CarSearch />
-      <CarValue />g
+      <CarValue />
     </div>
   );
 }
