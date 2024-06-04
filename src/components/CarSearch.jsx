@@ -9,7 +9,8 @@ function CarSearch() {
   };
   return (
     <div>
-      <input value={searchTerm} onChange={handleSearch} />
+      <label htmlFor="search">Car Search : </label>
+      <input id="search" value={searchTerm} onChange={handleSearch} />
     </div>
   );
 }

@@ -26,11 +26,17 @@ function CarForm() {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <label>Car Name</label>
-        <input type="text" value={name} onChange={handleName} />
-        <label>Car Cost</label>
-        <input type="number" value={cost || ""} onChange={handleCost} />
-        <button type="submit">Submit</button>
+        <section>
+          <label>Car Name</label>
+          <input type="text" value={name} onChange={handleName} />
+        </section>
+        <section>
+          <label>Car Cost</label>
+          <input type="number" value={cost || ""} onChange={handleCost} />
+        </section>
+        <section>
+          <button type="submit">Submit</button>
+        </section>
       </form>
     </div>
   );
